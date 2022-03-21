@@ -1,0 +1,149 @@
+body {
+    color: #191919;
+    font-size: 14px;
+    background-image: url(images/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 150px;
+    height: 1200px;
+    background-color: #646464;
+    float: left;
+}
+h1 {
+    color: #6BE7FE;
+    font-family: politica,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+    float: left;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    float: right;
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.floatLeft {
+	float: left;
+}
+
+article {
+    margin-bottom: 30px;
+    float: right;
+}
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up with the header*/
+main {
+    width: 590px;
+    height: 1600px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    background-color: transparent;
+}
+nav {
+    width: 768px;
+    height: 80px;
+    color: #65EBFB;
+    float: none;
+	
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 60px;
+	font-family: neonoir, sans-serif;
+	font-size: 18pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 560px;
+}
+
+nav a:link {
+    color: #6BE7FF;
+    padding: 10px;
+    text-decoration: none;
+    font-family: neonoir, sans-serif;
+}
+nav a:visited {
+    color: #5F2575;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+	background-color: #65EBFB;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #65EBFB;
+}
+
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: hsla(190,100%,71%,1.00);
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.submit_btn:hover {
+		-webkit-box-shadow: 6px 6px 35px 1px #000000;
+	box-shadow: 6px 6px 35px 1px #000000;
+}
+footer{
+    color: #191919;
+    background-color: #646464;
+}
+em {
+    float: right;
+}
+.ul {
+}

@@ -1,0 +1,105 @@
+body {
+    color: #191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-image: url(images/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	}
+body p {
+}
+#container nav li {
+	display: block;
+	float: left;
+	width: 60px;
+	margin-right: 60px;
+	font-family: neonoir, sans-serif;
+	font-size: 18pt;
+}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 150px;
+    height: 1200px;
+    float: left;
+    background-color: #646464;
+}
+h1 {
+    color: #6BE7FE;
+    font-family: politica,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 24pt;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+article {
+    margin-bottom: 30px;
+}
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up with the header*/
+main {
+    width: 598px;
+    height: 1600px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float: right;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav ul {
+	margin: auto;
+	width: 565px;
+}
